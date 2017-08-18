@@ -1,0 +1,23 @@
+{
+  "name": "xlsx2html",
+  "version": "1.0.0",
+  "description": "Node.js xlsx2html",
+  "main": "xlsl2html.js",
+  "scripts": {
+    "start": "node xlsl2html.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JinChengJoker/xlsx2html"
+  },
+  "keywords": [
+    "Node.js",
+    "xlsl",
+    "html"
+  ],
+  "author": "JinCheng",
+  "license": "ISC",
+  "dependencies": {
+    "node-xlsx": "^0.10.0"
+  }
+}
