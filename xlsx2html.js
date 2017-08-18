@@ -37,7 +37,8 @@ var server = http.createServer(function(request, response) {
 
             // 将解析的xlsx数据写入response
             response.end(xlsx_data);
-
+        
+        // 如果发生错误或文件不存在
         } else {
             console.log('400 ' + request.url);
             response.writeHead(404);
